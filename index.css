@@ -1,0 +1,250 @@
+body{
+    
+    background-image: linear-gradient(to bottom,#f11b6a,#ff6975);
+}
+#top1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+#icons{
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+    height: 20px;
+}
+#top2{
+    display: flex;
+    justify-content: center;
+}
+#subdiv{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#imgbody{
+
+    height: 380px;
+    width: 280px;
+    display: table-column;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#img{
+  background-image: url("./IMGS/img-01.jpg");
+  background-size: 319px 212px;
+  height: 350px;
+  width: 300px;
+  background-repeat: no-repeat;
+  
+  /* order: 2; */
+}
+#content{
+    width: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#top3{
+    display: flex;
+    justify-content: center;
+}
+#subdiv2{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    
+}
+#imgbody2{
+    height: 370px;
+    width: 30%;
+}
+#img2{
+    height: 200px;
+    width: 250px;
+    background-image: url("./IMGS/img-02.jpg");
+    background-size: 100% 100%;
+}
+#imgbody3{
+    height: 200px;
+    width: 30%;
+}
+#img3{
+    height: 200px;
+    width: 250px;
+    background-image: url("./IMGS/img-03.jpg");
+    background-size: 100% 100%;
+}
+#imgbody4{
+    height: 200px;
+    width: 30%;
+}
+#img4{
+    height: 200px;
+    width: 250px;
+    background-image: url("./IMGS/img-04.jpg");
+    background-size: 100% 100%;
+}
+#top5{
+    display: flex;
+    justify-content: center;
+}
+#top5>div{
+    background-color: white;
+    height: 400px;
+    width: 65%;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#education{
+    height: 300px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#education>div{
+    height: 280px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#edu1{
+    height: 410px;
+    padding-top: 80px;
+}
+
+#language{
+    height: 300px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#language>div{
+    height: 150px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+div>div:nth-child(1){
+    height: 180px;
+}
+#shinchan-pro{
+    height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#shinchan-pro>div{
+    height: 880px;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#shin-img{
+    height: 650px;
+    width: 850px;
+    background-image: url("./IMGS/shinchan-2.jpg");
+    background-size: 100% 100%;
+}
+#contact{
+    width: 100%;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#contact>div{
+    background-color: white;
+    height: 600px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact>div>div{
+    height: 400px;
+    width: 90%;   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+/* #contact>div>div:nth-child(2){
+    height: 40px;
+} */
+#input1{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(227, 225, 225);
+}
+#input2{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(227, 225, 225);
+}
+#input3{
+    height: 130px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(227, 225, 225);
+    
+}
+#msg{
+    height: 42px;
+    width: 140px;
+    border-radius: 40px;
+    background-color: #f11b6a;
+    color: white;
+}
+#footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+} 
+
+
+
+
+
